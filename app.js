@@ -49,11 +49,7 @@ app.get('/product', (req, res) => {
     });
 });
 
-// app.get('/weather', (req, res) => {
-//     res.send({
-        
-//     })
-// });
+
 app.get('/weather', (req, res) => {
     if(!req.query.address){
         res.send({
